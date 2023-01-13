@@ -34,7 +34,7 @@ passport.use(
 
 app.use(session({
   store: new MemoryStore({checkPeriod:86400000}),
-  secret: 'meusegredonaorevele',
+  secret: `${process.env.nao}`,
   resave: false,
   saveUninotialized: false,
 }))
