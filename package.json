@@ -1,0 +1,30 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "colors": "^1.4.0",
+    "discord.js": "^14.6.0",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3",
+    "firebase": "^9.14.0",
+    "firebase-tools": "^11.16.1",
+    "memorystore": "^1.6.7",
+    "mongoose": "^6.7.3",
+    "node-fetch": "^3.2.6",
+    "passport": "^0.6.0",
+    "passport-discord": "^0.1.4",
+    "path": "^0.12.7",
+    "sessions": "^0.0.2-7",
+    "undici": "^5.12.0"
+  }
+}
